@@ -12,8 +12,4 @@ services:
       - "10002:10002"
     volumes:
       - ./data:/workspace
-    healthcheck:
-      test: ["CMD", "sh", "-c", "nc -z localhost 10000 && localhost 10001 && localhost 10002"]
-      interval: 10s
-      timeout: 3s
-      retries: 5
+      
