@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\Pinecone.Core\Pinecone.Core.csproj" />
     <ProjectReference Include="..\..\src\Pinecone.Connectors\Pinecone.Connectors.csproj" />
+    <ProjectReference Include="..\..\src\Pinecone.Functions\Pinecone_Functions.csproj" />
   </ItemGroup>
 
 </Project>
